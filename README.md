@@ -1,6 +1,6 @@
-# Project was created using create-react-app and ejected to have more control on
+## Project was created using create-react-app and ejected to have more control on configuration.
 
-configuration.
+=====
 
 * CSS Modules were used to encapsulate styles in components.
 
