@@ -1,0 +1,56 @@
+.order h2 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.order ul {
+  padding-left: 0px;
+  width: 80%;
+  margin: 10px auto;
+}
+.order ul li {
+  list-style: decimal;
+  border-bottom: 1px dashed #cccccc;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  color: #929292;
+}
+.order ul li:last-child {
+  border: none;
+}
+
+.pricerow strong,
+.pricerow span {
+  color: green;
+}
+.orderBtnWrapper {
+  margin: 25px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+}
+.continue {
+  display: inline-block;
+  font: inherit;
+  padding: 5px;
+  margin: 0 5px;
+  width: 110px;
+  background-color: #19c24b;
+  box-shadow: 2px 4px 2px #19c24b7c;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.continue:active {
+  transform: translateY(1px);
+  box-shadow: 1px 2px 2px #19c24b7c;
+}
+
+.cancel {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

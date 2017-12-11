@@ -1,0 +1,25 @@
+.formcontrol {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formcontrol label {
+  display: none;
+}
+.formcontrol input,
+.formcontrol select {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  width: 100%;
+  background-color: #f5f5f5;
+  font-family: inherit;
+}
+.formcontrol input.error {
+  border: 1px solid rgb(194, 67, 29);
+  background-color: rgb(228, 170, 163);
+}

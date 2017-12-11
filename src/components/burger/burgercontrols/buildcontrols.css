@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+  background-color: #bbbbbb5b;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0;
+}
+.orderButton {
+  background-color: rgb(223, 125, 34);
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.orderButton:disabled {
+  background-color: #bbbbbb;
+  cursor: not-allowed;
+}

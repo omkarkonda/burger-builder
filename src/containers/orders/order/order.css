@@ -1,0 +1,31 @@
+.order {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #703810;
+  box-shadow: 4px 4px 12px #b9b9b9;
+  margin: 5px;
+  width: 200px;
+}
+
+.customer {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.ig {
+  font-size: 11px;
+  color: whitesmoke;
+}
+
+@media (max-width: 420px) {
+  .order {
+    width: 95%;
+  }
+  .ig {
+    display: inline-block;
+  }
+}
