@@ -1,8 +1,9 @@
-Project was created using create-react-app and ejected to have more control on
+# Project was created using create-react-app and ejected to have more control on
+
 configuration.
 
-# CSS Modules were used to encapsulate styles in components.
+* CSS Modules were used to encapsulate styles in components.
 
-# Orders are stored in firebase database.
+* Orders are stored in firebase database.
 
-# Used axios for ajax calls
+* Used axios for ajax calls
